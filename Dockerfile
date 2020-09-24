@@ -1,7 +1,5 @@
 FROM python:3
 
-ADD app.py /
-
-RUN pip install
+COPY app.py /
 
 CMD [ "python", "./app.py" ]
