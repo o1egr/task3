@@ -1,3 +1,3 @@
 #!/usr/bin/env python3
 
-print("Hello world!")
+print("Task 3. Oleh Roztorhuiev")
