@@ -1,0 +1,3 @@
+- containers:
+  name: nginx
+  image: o1egr/pre-prod
