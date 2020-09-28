@@ -2,6 +2,6 @@ FROM python:3
 
 COPY app.py /
 
-EXPOSE 1020
+EXPOSE 80
 
 CMD [ "python", "./app.py" ]
