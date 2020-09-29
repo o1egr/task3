@@ -1,2 +1,3 @@
 replicaCount: 2
 namespace: new-ns
+image: o1egr/py_app:v35
