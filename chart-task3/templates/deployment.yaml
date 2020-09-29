@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-super-app
+  labels:
+    app: my-super-app
+  namespace: {{ .Values.namespace }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: my-super-app
+  template:
+    metadata:
+      labels:
+        app: my-super-app
+    spec:
+      containers:
+      - image: o1egr/py_app:v35
+        name: my-super-app
+        ports:
+        - containerPort: 8000
