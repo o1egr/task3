@@ -16,7 +16,7 @@ spec:
         app: my-super-app
     spec:
       containers:
-      - image: o1egr/py_app:v35
+      - image: {{ .Values.image }}
         name: my-super-app
         ports:
         - containerPort: 8000
