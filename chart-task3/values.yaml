@@ -2,5 +2,5 @@ replicaCount:
 namespace: 
 image: o1egr/py_app:v0.1.0
 secretUser:
-  name:
-  pass:
+  name: oleg
+  pass: 12345
